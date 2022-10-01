@@ -54,10 +54,18 @@ function LoginForm({ setVisible }) {
   return (
     <div className="login_wrap">
       <div className="login_1">
-        <img src="../../icons/facebook.svg" alt="" />
+        <img
+          style={{
+            width: 200,
+            marginLeft: 50,
+          }}
+          src="../../icons/hinhanh.webp"
+          alt=""
+        />
 
         <span>
-          Facebook helps you connect and share with the people in your life.
+          Socials network helps you connect and share with the people in your
+          life.
         </span>
       </div>
       <div className="login_2">
